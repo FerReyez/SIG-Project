@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { from } from "rxjs";
+import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-navegacion',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class NavegacionComponent{
-
+    
 }
