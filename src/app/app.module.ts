@@ -7,6 +7,9 @@ import { NavegacionComponent } from './components/navegacion/navegacion.componen
 import { NoticiaComponent } from './components/noticia/noticia.component';
 import { HomeComponent } from './components/home/home.component';
 import {APP_ROUTING} from './app.router';
+import { HeadderComponent } from './components/template/headder/headder.component';
+import { NavbarComponent } from './components/template/navbar/navbar.component';
+import { FooterComponent } from './components/template/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import {APP_ROUTING} from './app.router';
     RegistroComponent,
     NavegacionComponent,
     NoticiaComponent,
-    HomeComponent
+    HomeComponent,
+    HeadderComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
