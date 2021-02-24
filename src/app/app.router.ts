@@ -15,6 +15,7 @@ import { DescuentosComponent } from './components/conta/descuentos/descuentos.co
 import { PaisesComponent } from './components/catalogo/paises/paises.component';
 import { EstadosComponent } from './components/catalogo/estados/estados.component';
 import { UsuariosComponent } from './components/admin/usuarios/usuarios.component';
+import { RolesComponent } from './components/admin/roles/roles.component';
 
 const APP_ROUTES: Routes =[
     { path: 'home', component: HomeComponent },
@@ -33,6 +34,7 @@ const APP_ROUTES: Routes =[
     { path: 'pais', component: PaisesComponent },
     { path: 'estado', component: EstadosComponent },
     { path: 'usuario', component: UsuariosComponent },
+    { path: 'rol', component: RolesComponent },
     { path: '**', pathMatch:'full', redirectTo:'home' }
 ]
 

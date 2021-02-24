@@ -35,8 +35,10 @@
                     <ul class="dropdown-menu pull-right">
                         <li><a [routerLink]="['/registro']"><i class="material-icons">person</i>Perfil</a></li>
                         <li role="separator" class="divider"></li>
+                        <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Compras</a></li>
                         <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Ventas</a></li>
-                        <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>COmpras</a></li>
+                        <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Lista de Deseos</a></li>
+                        <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Facturas</a></li>
                         <li><a [routerLink]="['/registro']"><i class="material-icons">input</i>Cerra Sesion</a></li>
                     </ul>
                 </li>
@@ -75,15 +77,55 @@
                 </li>
                 <li>
                     <a href="javascript:void(0);" class="menu-toggle">
-                        <i class="material-icons">swap_calls</i>
+                        <i class="material-icons">person</i>
+                        <span>Gestion</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a [routerLink]="['/usuario']">Usuarios</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/rol']">Roles</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/menu']">Menu</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/opcion']">Opciones</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">lock_outline</i>
                         <span>Bitacora</span>
                     </a>
                     <ul class="ml-menu">
                         <li>
-                            <a [routerLink]="['/registro']">Sesion</a>
+                            <a [routerLink]="['/sesion']">Sesion</a>
                         </li>
                         <li>
-                            <a [routerLink]="['/registro']">Acciones</a>
+                            <a [routerLink]="['/accion']">Acciones</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">assignment</i>
+                        <span>Inventario</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a [routerLink]="['/producto']">Productos</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/combo']">Combos</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/categoria']">Categorias</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/transaccion']">Transacciones</a>
                         </li>
                     </ul>
                 </li>

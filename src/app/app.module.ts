@@ -21,6 +21,7 @@ import { DescuentosComponent } from './components/conta/descuentos/descuentos.co
 import { PaisesComponent } from './components/catalogo/paises/paises.component';
 import { EstadosComponent } from './components/catalogo/estados/estados.component';
 import { UsuariosComponent } from './components/admin/usuarios/usuarios.component';
+import { RolesComponent } from './components/admin/roles/roles.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { UsuariosComponent } from './components/admin/usuarios/usuarios.componen
     DescuentosComponent,
     PaisesComponent,
     EstadosComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    RolesComponent
   ],
   imports: [
     BrowserModule,
