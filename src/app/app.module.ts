@@ -22,6 +22,7 @@ import { PaisesComponent } from './components/catalogo/paises/paises.component';
 import { EstadosComponent } from './components/catalogo/estados/estados.component';
 import { UsuariosComponent } from './components/admin/usuarios/usuarios.component';
 import { RolesComponent } from './components/admin/roles/roles.component';
+import { BancosComponent } from "./components/conta/bancos/bancos.component";
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { RolesComponent } from './components/admin/roles/roles.component';
     PaisesComponent,
     EstadosComponent,
     UsuariosComponent,
+    BancosComponent,
     RolesComponent
   ],
   imports: [

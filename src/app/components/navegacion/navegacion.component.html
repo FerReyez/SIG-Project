@@ -1,18 +1,3 @@
-<!-- <nav>
-    <div class="nav-wrapper">
-        <a href="#!" class="brand-logo">Logo</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-            <li><a [routerLink]="['/registro']">Sass</a></li>
-            <li><a [routerLink]="['/registro']">Components</a></li>
-        </ul>
-    </div>
-</nav>
-
-<ul class="sidenav" id="mobile-demo">
-    <li><a [routerLink]="['/registro']">Sass</a></li>
-    <li><a [routerLink]="['/registro']">Components</a></li>
-</ul> -->
 <!-- Overlay For Sidebars -->
 <div class="overlay"></div>
 <!-- #END# Overlay For Sidebars -->
@@ -38,7 +23,7 @@
                         <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Compras</a></li>
                         <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Ventas</a></li>
                         <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Lista de Deseos</a></li>
-                        <li><a [routerLink]="['/registro']"><i class="material-icons">shopping_cart</i>Facturas</a></li>
+                        <li><a [routerLink]="['/registro']"><i class="material-icons">assignment</i>Facturas</a></li>
                         <li><a [routerLink]="['/registro']"><i class="material-icons">input</i>Cerra Sesion</a></li>
                     </ul>
                 </li>
@@ -126,6 +111,37 @@
                         </li>
                         <li>
                             <a [routerLink]="['/transaccion']">Transacciones</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">business_center</i>
+                        <span>Contaduria</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a [routerLink]="['/banco']">Bancos</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/descuento']">Descuentos</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/factura']">Facturas</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                        <i class="material-icons">map</i>
+                        <span>Locaciones</span>
+                    </a>
+                    <ul class="ml-menu">
+                        <li>
+                            <a [routerLink]="['/pais']">Paises</a>
+                        </li>
+                        <li>
+                            <a [routerLink]="['/estado']">Estados</a>
                         </li>
                     </ul>
                 </li>
