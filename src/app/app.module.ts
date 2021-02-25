@@ -23,6 +23,7 @@ import { EstadosComponent } from './components/catalogo/estados/estados.componen
 import { UsuariosComponent } from './components/admin/usuarios/usuarios.component';
 import { RolesComponent } from './components/admin/roles/roles.component';
 import { BancosComponent } from "./components/conta/bancos/bancos.component";
+import { VentasComponent } from './components/reportes/ventas/ventas.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { BancosComponent } from "./components/conta/bancos/bancos.component";
     EstadosComponent,
     UsuariosComponent,
     BancosComponent,
-    RolesComponent
+    RolesComponent,
+    VentasComponent
   ],
   imports: [
     BrowserModule,

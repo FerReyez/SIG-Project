@@ -17,6 +17,7 @@ import { EstadosComponent } from './components/catalogo/estados/estados.componen
 import { UsuariosComponent } from './components/admin/usuarios/usuarios.component';
 import { RolesComponent } from './components/admin/roles/roles.component';
 import { BancosComponent } from "./components/conta/bancos/bancos.component";
+import { VentasComponent } from './components/reportes/ventas/ventas.component';
 
 const APP_ROUTES: Routes =[
     { path: 'home', component: HomeComponent },
@@ -37,6 +38,7 @@ const APP_ROUTES: Routes =[
     { path: 'usuario', component: UsuariosComponent },
     { path: 'rol', component: RolesComponent },
     { path: 'banco', component: BancosComponent },
+    { path: 'ventas', component: VentasComponent },
     { path: '**', pathMatch:'full', redirectTo:'home' }
 ]
 
