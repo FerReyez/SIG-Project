@@ -1,1 +1,200 @@
-<p>roles works!</p>
+<div class="header">
+    <h2>
+        Cotrol de Roles
+        <small>Aqui podras administrar los diferentes Rols del sistema</small>
+    </h2>
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            <div class="body">
+                <button type="button" class="btn bg-red btn-block btn-lg waves-effect" data-toggle="modal"
+                    data-target="#form-rol">Agregar Rol</button>
+            </div>
+            <div class="body table-responsive">
+                <!-- Basic Table -->
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2>
+                                    Roles
+                                </h2>
+                                <div class="body table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Rol</th>
+                                                <th>Rol</th>
+                                                <th>Editar/Eliminar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Rol Prueba</td>
+                                                <td>
+                                                    <button type="button" class="btn bg-info btn-circle waves-effect waves-circle waves-float" data-toggle="modal" data-target="#form-permisos"><i class="material-icons">build</i></button>
+                                                </td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-rol">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Rol Prueba</td>
+                                                <td><button type="button" class="btn bg-info btn-circle waves-effect waves-circle waves-float" data-toggle="modal" data-target="#form-permisos"><i class="material-icons">build</i></button></td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-rol">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Rol Prueba</td>
+                                                <td><button type="button" class="btn bg-info btn-circle waves-effect waves-circle waves-float" data-toggle="modal" data-target="#form-permisos"><i class="material-icons">build</i></button></td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-rol">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Rol Prueba</td>
+                                                <td><button type="button" class="btn bg-info btn-circle waves-effect waves-circle waves-float" data-toggle="modal" data-target="#form-permisos"><i class="material-icons">build</i></button></td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-rol">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="col-xs-4"></div>
+                                    <div class="col-xs-4">
+                                        <nav>
+                                            <ul class="pagination center">
+                                                <li>
+                                                    <a href="javascript:void(0);" class="waves-effect">
+                                                        <i class="material-icons">chevron_left</i>
+                                                    </a>
+                                                </li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">1</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">2</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">3</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">4</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">5</a></li>
+                                                <li>
+                                                    <a href="javascript:void(0);" class="waves-effect">
+                                                        <i class="material-icons">chevron_right</i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="col-xs-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #END# Basic Table -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Size -->
+    <div class="modal fade" id="form-rol" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="form-title">Agregar Rol</h2>
+                </div>
+                <form id="developer_cu_form" class="">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <div class="form-line">
+                                <input type="text" class="form-control" placeholder="Rol">
+                            </div>
+                            <div class="form-line">
+                                <input type="password" class="form-control" placeholder="Estado">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link waves-effect">Guardar</button>
+                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="form-permisos" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="form-title">Agregar Rol</h2>
+                </div>
+                <form id="developer_cu_form" class="">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <div class="form-line"></div>
+                            <br>
+                            <label>Ejemplo</label>
+                            <div class="switch">
+                                <label>OFF<input type="checkbox" checked=""><span class="lever"></span>ON</label>
+                            </div>
+                            <br>
+                            <label>Ejemplo</label>
+                            <div class="switch">
+                                <label>DISABLED<input type="checkbox" disabled=""><span class="lever"></span></label>
+                            </div>
+                            <br>
+                            <label>Ejemplo</label>
+                            <div class="switch">
+                                <label>DISABLED<input type="checkbox" disabled=""><span class="lever"></span></label>
+                            </div>
+                            <br>
+                            <label>Ejemplo</label>
+                            <div class="switch">
+                                <label>DISABLED<input type="checkbox" disabled=""><span class="lever"></span></label>
+                            </div>
+                            <div class="form-line"></div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link waves-effect">Guardar</button>
+                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>

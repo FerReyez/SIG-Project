@@ -1,1 +1,162 @@
-<p>usuarios works!</p>
+<div class="header">
+    <h2>
+        Cotrol de Usuarios
+        <small>Aqui podras administrar los diferentes Usuarios del sistema</small>
+    </h2>
+    <div class="container-fluid">
+        <div class="col-xs-12">
+            <div class="body">
+                <button type="button" class="btn bg-red btn-block btn-lg waves-effect" data-toggle="modal"
+                    data-target="#form-usuario">Agregar Usuario</button>
+            </div>
+            <div class="body table-responsive">
+                <!-- Basic Table -->
+                <div class="row clearfix">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="card">
+                            <div class="header">
+                                <h2>
+                                    Usuarios
+                                </h2>
+                                <div class="body table-responsive">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>#</th>
+                                                <th>Usuario</th>
+                                                <th>Rol</th>
+                                                <th>Editar/Eliminar</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Usuario Prueba</td>
+                                                <td>Admin</td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-usuario">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Usuario Prueba</td>
+                                                <td>Admin</td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-usuario">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Usuario Prueba</td>
+                                                <td>Admin</td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-usuario">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">*</th>
+                                                <td>Usuario Prueba</td>
+                                                <td>Admin</td>
+                                                <td>
+                                                    <button type="button"
+                                                        class="btn btn-default btn-circle waves-effect waves-circle waves-float"
+                                                        data-toggle="modal" data-target="#form-usuario">
+                                                        <i class="material-icons">save</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn bg-red btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">delete</i>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="col-xs-4"></div>
+                                    <div class="col-xs-4">
+                                        <nav>
+                                            <ul class="pagination center">
+                                                <li>
+                                                    <a href="javascript:void(0);" class="waves-effect">
+                                                        <i class="material-icons">chevron_left</i>
+                                                    </a>
+                                                </li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">1</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">2</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">3</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">4</a></li>
+                                                <li><a href="javascript:void(0);" class="waves-effect">5</a></li>
+                                                <li>
+                                                    <a href="javascript:void(0);" class="waves-effect">
+                                                        <i class="material-icons">chevron_right</i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="col-xs-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- #END# Basic Table -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Small Size -->
+    <div class="modal fade" id="form-usuario" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 id="form-title">Agregar Usuario</h2>
+                </div>
+                <form id="developer_cu_form" class="">
+                    <div class="modal-body">
+                        <div class="input-group">
+                            <div class="form-line">
+                                <input type="text" class="form-control" placeholder="Usuario">
+                            </div>
+                            <div class="form-line">
+                                <input type="password" class="form-control" placeholder="Contrasenia">
+                            </div>
+                            <div class="form-line">
+                                <input type="text" class="form-control" placeholder="Nombre Completo">
+                            </div>
+                            <div class="form-line">
+                                <input type="text" class="form-control" placeholder="Rol">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link waves-effect">Guardar</button>
+                    <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
