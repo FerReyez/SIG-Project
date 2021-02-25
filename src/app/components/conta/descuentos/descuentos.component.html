@@ -1,1 +1,114 @@
-<p>descuentos works!</p>
+<div class="header">
+    <h2>
+      Descuentos
+      <small>Aqui podras administrar los descuentos</small>
+    </h2>
+    <div class="container-fluid">
+      <div class="col-xs-12">
+        <div class="body">
+          <button type="button" class="btn bg-red btn-block btn-lg waves-effect" data-toggle="modal"
+            data-target="#form-estado">Agregar Descuento</button>
+        </div>
+        <div class="body table-responsive">
+          <!-- Basic Table -->
+          <div class="row clearfix">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <div class="card">
+                <div class="header">
+                  <h2>
+                    Descuento                 
+                  </h2>               
+                <div class="body table-responsive">
+                  <table class="table">
+                    <thead>
+                      <tr>
+                        <th>#</th>
+                        <th>Codigo descuento</th>
+                        <th>Producto</th>
+                        <th>Descuento a aplicar</th>
+                        <th> Fecha de inicio</th>
+                        <th>Fecha de vencimiento</th>
+                        <th>Editar/Eliminar</th>                      
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>542</td>
+                        <td>Galaxy A12</td>
+                        <td>10%</td>
+                        <td>01/02/2021</td>
+                        <td>28/02/2021</td>
+                        <td>
+                          <button type="button" class="btn btn-default btn-circle waves-effect waves-circle waves-float" data-toggle="modal" data-target="#form-estado">
+                          <i class="material-icons">save</i>
+                          </button>
+                          <button type="button" class="btn btn-default btn-circle waves-effect waves-circle waves-float" data-type="confirm">
+                            <i class="material-icons">content_cut</i>
+                          </button>
+                        </td>                    
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>543</td>
+                        <td>Camisa</td>
+                        <td>30%</td>
+                        <td>25/02/2021</td>
+                        <td>27/02/2021</td>
+                        <td>
+                          <button type="button" class="btn btn-default btn-circle waves-effect waves-circle waves-float" data-toggle="modal"
+                            data-target="#form-estado">
+                            <i class="material-icons">save</i>
+                            </button>
+                            <button type="button" class="btn btn-default btn-circle waves-effect waves-circle waves-float">
+                              <i class="material-icons">content_cut</i>
+                            </button>
+                        </td>                    
+                      </tr>                                       
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+            </div>
+          </div>
+          <!-- #END# Basic Table -->
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Small Size -->
+  <div class="modal fade" id="form-estado" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-sm" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 id="form-title">Agregar Descuento</h2>
+            </div>
+            <form id="developer_cu_form" class="">
+              <div class="modal-body">
+                <div class="input-group">
+                    <div class="form-line">
+                        <input type="text" class="form-control" placeholder="codigo del producto">
+                      </div>
+                  <div class="form-line">
+                    <input type="text" class="form-control" placeholder="nombre del producto">
+                  </div>
+                  <div class="form-line">
+                    <input type="text" class="form-control" placeholder="aplicar descuento">
+                  </div>
+                  <div class="form-line">
+                    <input type="text" class="form-control" placeholder="fecha de inicio">
+                  </div>
+                  <div class="form-line">
+                    <input type="text" class="form-control" placeholder="fecha de finalizacion">
+                  </div>
+                </div>
+              </div>
+            </form>       
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-link waves-effect">Guardar</button>
+                  <button type="button" class="btn btn-link waves-effect" data-dismiss="modal">Cerrar</button>
+              </div>
+          </div>
+      </div>
+  </div>
