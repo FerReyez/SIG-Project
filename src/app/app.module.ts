@@ -24,6 +24,11 @@ import { UsuariosComponent } from './components/admin/usuarios/usuarios.componen
 import { RolesComponent } from './components/admin/roles/roles.component';
 import { BancosComponent } from "./components/conta/bancos/bancos.component";
 import { VentasComponent } from './components/reportes/ventas/ventas.component';
+import { MasVendidosComponent } from './components/reportes/mas-vendidos/mas-vendidos.component';
+import { MenosVendidosComponent } from './components/reportes/menos-vendidos/menos-vendidos.component';
+import { ProveedoreVentasComponent } from './components/reportes/proveedore-ventas/proveedore-ventas.component';
+import { CategoriasMasComponent } from './components/reportes/categorias-mas/categorias-mas.component';
+import { DevolucionesProdComponent } from './components/reportes/devoluciones-prod/devoluciones-prod.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +52,12 @@ import { VentasComponent } from './components/reportes/ventas/ventas.component';
     UsuariosComponent,
     BancosComponent,
     RolesComponent,
-    VentasComponent
+    VentasComponent,
+    MasVendidosComponent,
+    MenosVendidosComponent,
+    ProveedoreVentasComponent,
+    CategoriasMasComponent,
+    DevolucionesProdComponent
   ],
   imports: [
     BrowserModule,

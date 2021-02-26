@@ -18,6 +18,11 @@ import { UsuariosComponent } from './components/admin/usuarios/usuarios.componen
 import { RolesComponent } from './components/admin/roles/roles.component';
 import { BancosComponent } from "./components/conta/bancos/bancos.component";
 import { VentasComponent } from './components/reportes/ventas/ventas.component';
+import { MasVendidosComponent } from './components/reportes/mas-vendidos/mas-vendidos.component';
+import { MenosVendidosComponent } from './components/reportes/menos-vendidos/menos-vendidos.component';
+import { ProveedoreVentasComponent } from './components/reportes/proveedore-ventas/proveedore-ventas.component';
+import { CategoriasMasComponent } from './components/reportes/categorias-mas/categorias-mas.component';
+import { DevolucionesProdComponent } from './components/reportes/devoluciones-prod/devoluciones-prod.component';
 
 const APP_ROUTES: Routes =[
     { path: 'home', component: HomeComponent },
@@ -39,6 +44,11 @@ const APP_ROUTES: Routes =[
     { path: 'rol', component: RolesComponent },
     { path: 'banco', component: BancosComponent },
     { path: 'ventas', component: VentasComponent },
+    { path: 'mas_vendidos', component: MasVendidosComponent },
+    { path: 'menos_vendidos', component: MenosVendidosComponent },
+    { path: 'provedor_mas', component: ProveedoreVentasComponent },
+    { path: 'catgeorias_mas', component: CategoriasMasComponent },
+    { path: 'devoluciones_prod', component: DevolucionesProdComponent },
     { path: '**', pathMatch:'full', redirectTo:'home' }
 ]
 
